@@ -1,0 +1,21 @@
+body {
+    font-family: 'hubballi', sans-serif;
+}
+
+.mainHeading {
+    background: red;
+
+}
+
+section {
+    display: inline-block;
+    position: center;
+    margin: auto;
+}
+
+.bioInfo {
+    background: yellow;
+    padding: .5rem;
+}
+
+
