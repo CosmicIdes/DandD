@@ -1,31 +1,41 @@
 [{
+   "id": 0,
    "name": "Lawful Good"
 },
 {
+   "id": 1,
    "name": "Lawful Neutral" 
 },
 {
+   "id": 2,
     "name": "Lawful Evil" 
  },
 {
+   "id": 3,
     "name": "Neutral Good" 
  },
  {
+    "id": 4,
     "name": "(True) Neutral" 
  },
  {
+    "id": 5,
     "name": "Neutral Evil" 
  },
  {
+    "id": 6,
     "name": "Chaotic Good" 
  },
  {
+    "id": 7,
     "name": "Chaotic Neutral" 
  },
  {
+    "id": 8,
     "name": "Chaotic Evil" 
  },
  {
+    "id": 9,
     "name": "Unaligned" 
  }
 ]
