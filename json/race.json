@@ -1,37 +1,64 @@
 [{
     "id": 0,
-    "name": "Dwarf"
+    "name": "Dwarf",
+    "subRace": ["Hill Dwarf", "Mountain Dwarf"],
+    "speed": 25,
+    "languages": ["Common", "Dwarvish"]
 },
 {
     "id": 1,
-    "name": "Elf"
+    "name": "Elf",
+    "subRace": ["High Elf", "Wood Elf", "Dark Elf(Drow)"],
+    "speed": 30,
+    "languages": ["Common", "Elvish"]
 },
 {
     "id": 2,
-    "name": "Halfling"
+    "name": "Halfling",
+    "subRace": ["Lightfoot", "Stout"],
+    "speed": 25,
+    "languages": ["Common", "Halfling"]
 },
 {
     "id": 3,
-    "name": "Human"
+    "name": "Human",
+    "subRace": [],
+    "speed": 30,
+    "languages": ["Common"]
 },
 {
     "id": 4,
-    "name": "Dragonborn"
+    "name": "Dragonborn",
+    "subRace": [],
+    "speed": 30,
+    "languages": ["Common", "Draconic"]
 },
 {
     "id": 5,
-    "name": "Gnome"
+    "name": "Gnome",
+    "subRace": ["Forest Gnome", "Rock Gnome"],
+    "speed": 25,
+    "languages": ["Common", "Gnomish"]
 },
 {
     "id": 6,
-    "name": "Half-Elf"
+    "name": "Half-Elf",
+    "subRace": [],
+    "speed": 30,
+    "languages": ["Common", "Elvish"]
 },
 {
     "id": 7,
-    "name": "Half-Orc"
+    "name": "Half-Orc",
+    "subRace": [],
+    "speed": 30,
+    "languages": ["Common", "Orc"]
 },
 {
     "id": 8,
-    "name": "Tiefling"
+    "name": "Tiefling",
+    "subRace": [],
+    "speed": 30,
+    "languages": ["Common", "Infernal"]
 }
 ]
