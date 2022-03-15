@@ -19,7 +19,6 @@
 <body>
    <!-- <header id="mainheader">
         <button id="menuBtn">Menu</button>
-        <h1>Emrys Seren Art</h1>
         <nav>
             <ul id="primaryNav">
                 <li><a href="index.html">Home</a></li> 
@@ -29,16 +28,20 @@
     <main class="main">
         <h1 class="mainHeading">Dungeons and Dragons Character Generator</h1>
         <div class="bioInfo">
-            <section class="playerName">Player Name:<input type="text"></section>
-            <section class="charaName">Character Name:<input type="text"></section>
-            <section class="charaClass">Class:<input type="text"></section>
-            <section class="charaLvl">Level:<input type="text"></section>
-            <section class="charaBkgd">Background:<input type="text"></section>
-            <section class="charaRace">Race:<input type="text"></section>
-            <section class="charaAlign">Alignment:<input list="alignment"></section>
-            <section class="charaExp">Experience Points:<input type="number"></section>
+            <form method="post" action="" enctype="multipart/formdata">
+                <section id="playerName">Player Name:<input type="text"></section>
+                <section id="charaAvatar"><input type ="file" name="avatar" id="avatar"></section>
+                <section id="charaName">Character Name:<input type="text"></section>
+                <section id="charaClass">Class:<input type="text"></section>
+                <section id="charaLvl">Level:<input type="text"></section>
+                <section id="charaBkgd">Background:<input type="text"></section>
+                <section id="charaRace">Race:<select id="raceList" name="race"></select></section>
+                <section id="charaAlign">Alignment:<input list="alignment"></section>
+                <section id="charaExp">Experience Points:<input type="number"></section>
+            </form>
         </div>
     
+  
     <datalist id="alignment">
         <option value="Lawful Good">
         <option value="Lawful Neutral">
@@ -52,6 +55,6 @@
     </datalist>
 
     </main>
-
+    <script src = "./js/index.js"></script>
 </body>
 </html>
