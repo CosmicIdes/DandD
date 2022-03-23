@@ -18,4 +18,8 @@ section {
     padding: .5rem;
 }
 
-
+.charaStats {
+    background: aqua;
+    padding: .5rem;
+    display: flexbox;
+}
