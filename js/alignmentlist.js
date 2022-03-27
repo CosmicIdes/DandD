@@ -1,6 +1,6 @@
 // alignment dropdown list
 
-var alignment;
+let alignment;
 
 let dropdownA = document.getElementById('alignmentList');
 dropdownA.length = 0;
@@ -19,12 +19,12 @@ xhrAlign.responseType = 'text';
 xhrAlign.onload = function() {
     if (xhrAlign.status === 200) {
         const myAlign = JSON.parse(xhrAlign.responseText); 
-        let option;
+        let optionA = '';
         for (let a = 0; a < myAlign.alignment.length; a++) {
-            option = document.createElement('option');
-            option.text = myAlign.alignment[a].name;
-            option.value = myAlign.alignment[a].name;
-            dropdown.add(option);
+            optionA = document.createElement('option');
+            optionA.text = myAlign.alignment[a].name;
+            optionA.value = myAlign.alignment[a].name;
+            dropdownA.add(optionA);
         }
     }
 }

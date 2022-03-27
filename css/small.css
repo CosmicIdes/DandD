@@ -7,11 +7,11 @@ body {
 
 }
 
-section {
+/*section {
     display: inline-block;
     position: center;
     margin: auto;
-}
+}*/
 
 .bioInfo {
     background: yellow;
@@ -19,7 +19,17 @@ section {
 }
 
 .charaStats {
-    background: aqua;
+    background: rgb(201, 152, 106);
     padding: .5rem;
-    display: flexbox;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    gap: .5rem;
 }
+ .charaIndStats {
+     background-color: rgba(255, 0, 0, 0.788);
+     padding: .5rem;
+     gap: .5rem;
+     border: 2px solid black;
+ }

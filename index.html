@@ -29,29 +29,31 @@
         <h1 class="mainHeading">Dungeons and Dragons Character Generator</h1>
         <div class="bioInfo">
             <form method="post" action="" enctype="multipart/formdata">
-                <section id="playerName">Player Name:<input type="text"></section>
-                <section id="charaAvatar"><input type ="file" name="avatar" id="avatar"></section>
-                <section id="charaName">Character Name:<input type="text"></section>
-                <section id="charaClass">Class:<input type="text"></section>
-                <section id="charaLvl">Level:<input type="text"></section>
-                <section id="charaBkgd">Background:<input type="text"></section>
-                <section id="charaRace">Race:<select id="raceList" name="race"></select></section>
-                <section id="charasubRace">Subrace:<select id="subraceList" name="subRace"></select></section>
-                <section id="charaAlign">Alignment:<select id="alignmentlist" name="alignment"></select></section>
-                <section id="charaExp">Experience Points:<input type="number"></section>
+                <section class="charaBio">Player Name:<input type="text"></section>
+                <section class="charaBio"><input type ="file" name="avatar" id="avatar"></section>
+                <section class="charaBio">Character Name:<input type="text"></section>
+                <section class="charaBio">Class:<select id="classList" name="classes"></select></section>
+                <section class="charaBio">Level:<input type="text"></section>
+                <section class="charaBio">Background:<input type="text"></section>
+                <section class="charaBio">Race:<select id="raceList" name="race"></select></section>
+                <section class="charaBio">Subrace:<select id="subraceList" name="subRace"></select></section>
+                <section class="charaBio">Alignment:<select id="alignmentList" name="alignment"></select></section>
+                <section class="charaBio">Experience Points:<input type="number"></section>
             </form>
         </div>
         <div class="charaStats">
-            <section id="charaStrength">Strength <input type="number"></section>
-            <section id="charaDexterity">Dexterity<input type="number"></section>
-            <section id="charaConstitution">Constitution<input type="number"></section>
-            <section id="charaIntelligence">Intelligence<input type="number"></section>
-            <section id="charaWisdom">Wisdom<input type="number"></section>
-            <section id="charaCharisma">Charisma<input type="number"></section>
+            <section class="charaIndStats">Strength <input type="number"> <br>Saving Throws <input type="number"><br><input type="checkbox"> Athletics <input type="number"></section>
+            <section class="charaIndStats">Dexterity<input type="number"> <br>Saving Throws <input type="number"><br><input type="checkbox"> Acrobatics <input type="number"><br><input type="checkbox"> Sleight of Hand <input type="number"><br><input type="checkbox"> Stealth <input type="number"></section>
+            <section class="charaIndStats">Constitution<input type="number"> <br>Saving Throws <input type="number"></section>
+            <section class="charaIndStats">Intelligence<input type="number"> <br>Saving Throws <input type="number"><br><input type="checkbox"> Arcana <input type="number"><br><input type="checkbox"> History <input type="number"><br><input type="checkbox"> Investigation <input type="number"><br><input type="checkbox"> Nature <input type="number"><br><input type="checkbox"> Religion <input type="number"></section>
+            <section class="charaIndStats">Wisdom<input type="number"> <br>Saving Throws <input type="number"><br><input type="checkbox"> Animal Handling <input type="number"><br><input type="checkbox"> Insight <input type="number"><br><input type="checkbox"> Medicine <input type="number"><br><input type="checkbox"> Perception <input type="number"><br><input type="checkbox"> Survival <input type="number"></section>
+            <section class="charaIndStats">Charisma<input type="number"> <br>Saving Throws <input type="number"><br><input type="checkbox"> Deception <input type="number"><br><input type="checkbox"> Intimidation <input type="number"><br><input type="checkbox"> Performance <input type="number"><br><input type="checkbox"> Persuasion <input type="number"></section>
+            <section class="charaIndStats">Passive Widsom (Perception) <input type="number"></section>
         </div>
 
     </main>
     <script src = "./js/index.js"></script>
     <script src = "./js/alignmentlist.js"></script>
+    <script src = "./js/classlist.js"></script>
 </body>
 </html>
