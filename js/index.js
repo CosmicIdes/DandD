@@ -32,27 +32,3 @@ xhrRace.onload = function() {
 xhrRace.send();
 
 // subrace dropdown list
-
-document.getElementById('raceList').addEventListener('click', function (){
-   let dropdownSR = getElementById('subRaceList');
-   dropdownSR.length = 0;
-   let defaultOptionSR = document.createElement('option');
-    defaultOption.text = 'Choose Subrace';
-    const xhrSubRace = new XMLHttpRequest();
-    xhrSubRace.open('GET', '.json/race.json', true);
-    xhrSubRace.responsetype = 'text';
-    xhrSubRace.onload = function() {
-        if (xhrSubRace.status === 200) {
-            const mySubRace = JSON.parse(xhrSubRace.responseText);
-            let option;
-            for (let s = 0; s < mySubRace.subRace.length; s++) {
-                optionSR = document.createElement('option');
-                optionSR.text = mySubRace.subRace[s].subRace;
-                optionSR.value = mySubRace.subRace[s].subRace;
-                dropdownSR.add(option);
-            }
-        }
-    }
-});
-
-

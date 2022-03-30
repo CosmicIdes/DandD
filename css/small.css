@@ -24,7 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    position: absolute;
+    position: relative;
     gap: .5rem;
     width: 300px;
     font-size: 25px;
@@ -44,3 +44,35 @@ body {
      gap: 50px;
  }
  
+ .statsBody {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     background: blue;
+ }
+
+ .charaCombat {
+    background: rgb(115, 42, 138);
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    gap: .5rem;
+    width: 300px;
+    font-size: 25px;
+ }
+
+ .combatStats {
+    background-color: rgba(255, 0, 0, 0.788);
+    padding: .5rem;
+    gap: 100px;
+    border: 2px solid black;
+ }
+
+ #rightChecks {
+    display: inline;
+    float: right;
+    text-align: right;
+    gap: 50px;
+ }
