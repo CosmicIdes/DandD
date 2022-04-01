@@ -1,0 +1,15 @@
+@media only screen and (min-width: 1140px) {
+  
+    .topOfPage {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+     }
+
+    .wholePage {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+     }
+    
+} /* end of media query */

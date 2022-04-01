@@ -17,50 +17,44 @@
     <link href="CSS/large.css" rel="stylesheet">
 </head>
 <body>
-   <!-- <header id="mainheader">
-        <button id="menuBtn">Menu</button>
-        <nav>
-            <ul id="primaryNav">
-                <li><a href="index.html">Home</a></li> 
-            </ul>
-        </nav>
-    </header> -->
     <main class="main">
-        <h1 class="mainHeading">Dungeons and Dragons Character Generator</h1>
-        <div class="bioInfo">
-            <form method="post" action="" enctype="multipart/formdata">
-                <section class="charaBio">Player Name:<input type="text"></section>
-                <section class="charaBio"><input type ="file" name="avatar" id="avatar"></section>
-                <section class="charaBio">Character Name:<input type="text"></section>
-                <section class="charaBio">Class:<select id="classList" name="classes"></select></section>
-                <section class="charaBio">Level:<input type="text"></section>
-                <section class="charaBio">Background:<select id="backgroundList" name="background"></select></select></section>
-                <section class="charaBio">Race:<select id="raceList" name="race"></select></section>
-                <section class="charaBio">Alignment:<select id="alignmentList" name="alignment"></select></section>
-                <section class="charaBio">Experience Points:<input type="number"></section>
-            </form>
-        </div>
-        <div class="statsBody">
-            <div class="charaStats">
-                <section class="charaIndStats">Proficiency Bonus <input type="number" id="inputStats"></section>
-                <section class="charaIndStats">Inspiration <input type="number" id="inputStats"></section>
-                <section class="charaIndStats">Strength <input type="number" id="inputStats"> <br>Saving Throws <input type="number" id="inputStats"><br><input type="checkbox"> Athletics <input type="number" id="inputStats"></section>
-                <section class="charaIndStats">Dexterity<input type="number" id="inputStats"> <br>Saving Throws <input type="number" id="inputStats"><br><input type="checkbox"> Acrobatics <input type="number" id="inputStats"><br><input type="checkbox"> Sleight of Hand <input type="number" id="inputStats"><br><input type="checkbox"> Stealth <input type="number" id="inputStats"></section>
-                <section class="charaIndStats">Constitution<input type="number" id="inputStats"> <br>Saving Throws <input type="number" id="inputStats"></section>
-                <section class="charaIndStats">Intelligence<input type="number" id="inputStats"> <br>Saving Throws <input type="number" id="inputStats"><br><input type="checkbox"> Arcana <input type="number" id="inputStats"><br><input type="checkbox"> History <input type="number" id="inputStats"><br><input type="checkbox"> Investigation <input type="number" id="inputStats"><br><input type="checkbox"> Nature <input type="number" id="inputStats"><br><input type="checkbox"> Religion <input type="number" id="inputStats"></section>
-                <section class="charaIndStats">Wisdom<input type="number" id="inputStats"> <br>Saving Throws <input type="number" id="inputStats"><br><input type="checkbox"> Animal Handling <input type="number" id="inputStats"><br><input type="checkbox"> Insight <input type="number" id="inputStats"><br><input type="checkbox"> Medicine <input type="number" id="inputStats"><br><input type="checkbox"> Perception <input type="number" id="inputStats"><br><input type="checkbox"> Survival <input type="number" id="inputStats"></section>
-                <section class="charaIndStats">Charisma<input type="number" id="inputStats"> <br>Saving Throws <input type="number" id="inputStats"><br><input type="checkbox"> Deception <input type="number" id="inputStats"><br><input type="checkbox"> Intimidation <input type="number" id="inputStats"><br><input type="checkbox"> Performance <input type="number" id="inputStats"><br><input type="checkbox"> Persuasion <input type="number" id="inputStats"></section>
-                <section class="charaIndStats">Passive Widsom (Perception) <input type="number" id="inputStats"></section>
+            <h1 class="mainHeading">Dungeons and Dragons Character Generator</h1>
+            <div class="wholePage">
+                <div class="topOfPage">
+                    <div class="bioInfo">
+                        <form method="post" action="" enctype="multipart/formdata">
+                            <section class="charaBio">Player Name:<input type="text"></section>
+                            <section class="charaBio">Character Name:<input type="text"></section>
+                            <section class="charaBio">Class:<select id="classList" name="classes"></select></section>
+                            <section class="charaBio">Level:<input type="text"></section>
+                            <section class="charaBio">Background:<select id="backgroundList" name="background"></select></select></section>
+                            <section class="charaBio">Race:<select id="raceList" name="race"></select></section>
+                            <section class="charaBio">Alignment:<select id="alignmentList" name="alignment"></select></section>
+                            <section class="charaBio">Experience Points:<input type="number"></section>
+                        </form>
+                    </div>
+                </div>
+                <div class="statsBody">
+                    <div class="charaStats">
+                        <section class="charaIndStats">Proficiency Bonus <input type="number" id="inputStats"></section>
+                        <section class="charaIndStats">Inspiration <input type="number" id="inputStats"></section>
+                        <section class="charaIndStats">Strength <input type="number" id="inputStats"> <br>Saving Throws <input type="number" id="inputStats"><br><input type="checkbox"> Athletics <input type="number" id="inputStats"></section>
+                        <section class="charaIndStats">Dexterity<input type="number" id="inputStats"> <br>Saving Throws <input type="number" id="inputStats"><br><input type="checkbox"> Acrobatics <input type="number" id="inputStats"><br><input type="checkbox"> Sleight of Hand <input type="number" id="inputStats"><br><input type="checkbox"> Stealth <input type="number" id="inputStats"></section>
+                        <section class="charaIndStats">Constitution<input type="number" id="inputStats"> <br>Saving Throws <input type="number" id="inputStats"></section>
+                        <section class="charaIndStats">Intelligence<input type="number" id="inputStats"> <br>Saving Throws <input type="number" id="inputStats"><br><input type="checkbox"> Arcana <input type="number" id="inputStats"><br><input type="checkbox"> History <input type="number" id="inputStats"><br><input type="checkbox"> Investigation <input type="number" id="inputStats"><br><input type="checkbox"> Nature <input type="number" id="inputStats"><br><input type="checkbox"> Religion <input type="number" id="inputStats"></section>
+                        <section class="charaIndStats">Wisdom<input type="number" id="inputStats"> <br>Saving Throws <input type="number" id="inputStats"><br><input type="checkbox"> Animal Handling <input type="number" id="inputStats"><br><input type="checkbox"> Insight <input type="number" id="inputStats"><br><input type="checkbox"> Medicine <input type="number" id="inputStats"><br><input type="checkbox"> Perception <input type="number" id="inputStats"><br><input type="checkbox"> Survival <input type="number" id="inputStats"></section>
+                        <section class="charaIndStats">Charisma<input type="number" id="inputStats"> <br>Saving Throws <input type="number" id="inputStats"><br><input type="checkbox"> Deception <input type="number" id="inputStats"><br><input type="checkbox"> Intimidation <input type="number" id="inputStats"><br><input type="checkbox"> Performance <input type="number" id="inputStats"><br><input type="checkbox"> Persuasion <input type="number" id="inputStats"></section>
+                        <section class="charaIndStats">Passive Widsom (Perception) <input type="number" id="inputStats"></section>
+                    </div>
+                    <div class="charaCombat">
+                        <section class="combatStats">Armor Class <input type="text" id="inputStats"><br>Initiative <input type="number" id="inputStats"><br>Speed <input type="text" id="inputStats"></section>
+                        <section class="combatStats">Hit Point Maximum <input type="number" id="inputStats"><br>Current Hit Points <input type="number" id="inputStats"><br>Temporary Hit Points <input type="number" id="inputStats"></section>
+                        <section class="combatStats">Hit Dice Total <input type="text" id="inputStats"><br>Hit Dice <input type="text" id="inputStats"></section>
+                        <section class="combatStats">Death Saves<br>Successes <input type="checkbox" id="rightChecks"> <input type="checkbox" id="rightChecks"> <input type="checkbox" id="rightChecks"><br>Failures <input type="checkbox" id="rightChecks"> <input type="checkbox" id="rightChecks"> <input type="checkbox" id="rightChecks"></section>
+                        <section class="combatStats">Attacks & Spellcasting<br>List of Spells <select id="spellList" name="Spell"></select><p>Name <input type="text" name="atkSpell"><br>Name <input type="text" name="atkSpell"><br>Name <input type="text" name="atkSpell"></p></section>
+                    </div>
+                </div>
             </div>
-            <div class="charaCombat">
-                <section class="combatStats">Armor Class <input type="text" id="inputStats"><br>Initiative <input type="number" id="inputStats"><br>Speed <input type="text" id="inputStats"></section>
-                <section class="combatStats">Hit Point Maximum <input type="number" id="inputStats"><br>Current Hit Points <input type="number" id="inputStats"><br>Temporary Hit Points <input type="number" id="inputStats"></section>
-                <section class="combatStats">Hit Dice Total <input type="text" id="inputStats"><br>Hit Dice <input type="text" id="inputStats"></section>
-                <section class="combatStats">Death Saves<br>Successes <input type="checkbox" id="rightChecks"> <input type="checkbox" id="rightChecks"> <input type="checkbox" id="rightChecks"><br>Failures <input type="checkbox" id="rightChecks"> <input type="checkbox" id="rightChecks"> <input type="checkbox" id="rightChecks"></section>
-                <section class="combatStats">Attacks & Spellcasting<br>List of Spells <select id="spellList" name="Spell"></select><p>Name <input type="text" name="atkSpell"><br>Name <input type="text" name="atkSpell"><br>Name <input type="text" name="atkSpell"></p></section>
-            </div>
-        </div>
-
     </main>
     <script type="es" src="./index.js"></script>
     <script src="./js/alignmentlist.js"></script>

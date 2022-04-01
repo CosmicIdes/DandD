@@ -1,17 +1,12 @@
 body {
     font-family: 'hubballi', sans-serif;
+    background: black;
 }
 
 .mainHeading {
     background: red;
 
 }
-
-/*section {
-    display: inline-block;
-    position: center;
-    margin: auto;
-}*/
 
 .bioInfo {
     background: yellow;
@@ -48,7 +43,6 @@ body {
      display: flex;
      flex-wrap: wrap;
      flex-direction: row;
-     background: blue;
  }
 
  .charaCombat {
@@ -75,4 +69,10 @@ body {
     float: right;
     text-align: right;
     gap: 50px;
+ }
+
+ .topOfPage {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
  }
