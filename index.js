@@ -2,7 +2,7 @@
 const express = require('express');
 const app = express();
 const router = express.Router();
-
+const cors = require('cors');
 
 router.get('/', function (req, res, next) {
     res.status(200).send("dragon");
@@ -10,10 +10,9 @@ router.get('/', function (req, res, next) {
 
 app.use('/api/', router);
 
+app.use(cors());
+
 var server = app.listen(5000, function () {
     console.log('Node server is running on http://localhost:5000..');
 });
 
-app.get("https://www.dnd5eapi.co/api/spells/", (req, res) => {
-    console.log('name');
-});

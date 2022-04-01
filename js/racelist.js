@@ -1,6 +1,5 @@
 // race dropdown list
 let race;
-let subRace;
 
 let dropdown = document.getElementById('raceList');
 dropdown.length = 0;
@@ -10,6 +9,7 @@ defaultOption.text = 'Choose Race';
 
 dropdown.add(defaultOption);
 dropdown.selectedIndex = 0;
+
 
 const xhrRace = new XMLHttpRequest();
 

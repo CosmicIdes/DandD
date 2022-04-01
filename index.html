@@ -34,9 +34,8 @@
                 <section class="charaBio">Character Name:<input type="text"></section>
                 <section class="charaBio">Class:<select id="classList" name="classes"></select></section>
                 <section class="charaBio">Level:<input type="text"></section>
-                <section class="charaBio">Background:<input type="text"></section>
+                <section class="charaBio">Background:<select id="backgroundList" name="background"></select></select></section>
                 <section class="charaBio">Race:<select id="raceList" name="race"></select></section>
-                <section class="charaBio">Subrace:<select id="subraceList" name="subRace"></select></section>
                 <section class="charaBio">Alignment:<select id="alignmentList" name="alignment"></select></section>
                 <section class="charaBio">Experience Points:<input type="number"></section>
             </form>
@@ -58,16 +57,17 @@
                 <section class="combatStats">Hit Point Maximum <input type="number" id="inputStats"><br>Current Hit Points <input type="number" id="inputStats"><br>Temporary Hit Points <input type="number" id="inputStats"></section>
                 <section class="combatStats">Hit Dice Total <input type="text" id="inputStats"><br>Hit Dice <input type="text" id="inputStats"></section>
                 <section class="combatStats">Death Saves<br>Successes <input type="checkbox" id="rightChecks"> <input type="checkbox" id="rightChecks"> <input type="checkbox" id="rightChecks"><br>Failures <input type="checkbox" id="rightChecks"> <input type="checkbox" id="rightChecks"> <input type="checkbox" id="rightChecks"></section>
-                <section class="combatStats">Attacks & Spellcasting<br>Name <select id="spellList" name="Spell"> URL: <br>Name <select id="spellList" name="Spell"> URL: <br>Name <select id="spellList" name="Spell"> URL: </section>
+                <section class="combatStats">Attacks & Spellcasting<br>List of Spells <select id="spellList" name="Spell"></select><p>Name <input type="text" name="atkSpell"><br>Name <input type="text" name="atkSpell"><br>Name <input type="text" name="atkSpell"></p></section>
             </div>
         </div>
 
     </main>
-    <script type="es" src="index.js"></script>
+    <script type="es" src="./index.js"></script>
     <script src="./js/alignmentlist.js"></script>
     <script src="./js/classlist.js"></script>
     <script src="js/racelist.js"></script>
     <script src="js/spelllist.js"></script>
+    <script src="js/background.js"></script>
     
 </body>
 </html>
