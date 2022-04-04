@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/OrenjiId3s/DandD#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "esm": "^3.2.25",
     "express": "^4.17.3",
+    "http-server": "^14.1.0",
     "nodemon": "^2.0.15",
     "request": "^2.88.2",
     "requirejs": "^2.3.6"

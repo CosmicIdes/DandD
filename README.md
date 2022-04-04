@@ -4,6 +4,8 @@ There are media queries and flexbox used to give the page a responsive design.
 
 The GitHub page for this project is located here: https://github.com/OrenjiId3s/DandD
 
+To properly run this page, open the terminal or command prompt, change directory (cd) to the root file of the download for this project, and enter "./node_modules/.bin/http-server -a localhost -p 8000 -c-1". Then go to "http://localhost:8000".
+
 The features used are:
 
 1. Read and parse an external file (such as JSON or CSV) into your application and display some data from that in your app: The dropdown menus for Alignment, Race, and Class pull from JSON files.
